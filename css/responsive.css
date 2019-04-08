@@ -1,0 +1,970 @@
+
+@media (min-width:1025px){
+    #benefits .col-xs-6 {
+        width: 100%;
+    }
+}
+
+/*WHEN SCREEN BIGGER THAN 768PX*/
+@media (min-width:768px){
+    .navbar{
+        border-radius:0;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    .custom-nav{
+        min-height: 70px;
+    }
+    .nav-ul{
+        margin:10px 0;
+        font:16px montserrat-light;
+    }
+
+    #benefits .col-sm-3{
+        width:32.5%;
+    }
+    #benefits .col-sm-6{
+        width:35%;
+        text-align: center;
+    }
+    #benefits .col-xs-6{
+        /*width: 100%;*/
+    }
+    #benefits .col-sm-6>img{
+        margin:0 auto;
+    }
+    #newsletter .col-sm-10{
+        width:70%;
+    }
+
+    #news .clearfix{
+        margin-bottom:40px;
+    }
+
+     .clearfix-for-xs.clearfix:before{
+        display: none;
+        content: none;
+    }
+    .clearfix-for-xs.clearfix:before{
+        clear: none;
+    }
+
+    footer .clearfix:before{
+        display: none;
+        content: none;
+    }
+    footer .clearfix:after{
+        clear: none;
+    }
+    .bottom-footer .col-xs-12{
+        width:auto;
+        float:none;
+    }
+    footer .about .image-holder{
+        margin-bottom:0;
+    }
+    footer .about .image-holder img{
+        width:100px;
+        border-radius:0;
+    }
+
+}
+/*WHEN SCREEN BIGGER THAN 768PX*/
+
+@media (min-width:768px) {
+
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+    h2{
+        font-size:36px;
+    }
+
+
+    ul.nav-ul > li > a{
+        font-size:15px;
+    }
+    .banner-sign-up-form {
+        width: 300px;
+        padding: 15px;
+        top: 50%;
+        left: 0;
+        transform: translate(0,-50%);
+        z-index: 9;
+    }
+    .banner-sign-up-form a {
+        font-size: 18px;
+    }
+    .or-circle {
+        padding: 15px 0 10px 0;
+    }
+    .or-circle::before{
+        width:100%;
+    }
+    .form-control {
+        height: 35px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    .select-list{
+        height:35px;
+        background: #fff url(../images/icons/select_down_arrow.png) no-repeat right 8px top 14px;
+    }
+    .banner-sign-up-form a.sign-up::after{
+        transform:scale(0.8);
+    }
+    .banner-sign-up-form a.ride::after{
+        transform:scale(0.8);
+    }
+    .banner-sign-up-form a.changed:after{
+        content:url("../images/icons/right-arrow.png");
+        position: absolute;
+        right:20px;
+        top:-2px;
+        transform:scale(0.8) rotate(90deg);
+    }
+    .banner-sign-up-form a.changed-two:after{
+        content:url("../images/icons/right-arrow.png");
+        position: absolute;
+        right:0;
+        top:0;
+        transform:scale(0.8) rotate(0deg);
+    }
+
+    #benefits .col-sm-3{
+        width:100%;
+    }
+    .left-benefits {
+        margin-top: 0px;
+    }
+    #benefits .left-benefits .display-table::after {
+         content: none;
+     }
+    #benefits .right-benefits .display-table::before {
+        content: none;
+    }
+    #benefits .col-sm-3 .display-table:last-child {
+        margin-top: 0;
+    }
+    #benefits .right-benefits {
+        padding-left: 15px;
+    }
+    #benefits .col-sm-6 {
+        width: 100%;
+        text-align: center;
+    }
+    #benefits .col-sm-6>img{
+        max-width:90%;
+        margin:20px auto;
+        position: relative;
+        /*top:20px;*/
+    }
+    #benefits .right-benefits,
+    #benefits .left-benefits{
+        margin-top:0;
+    }
+    #download-the-app .text-section {
+        margin-right: 0;
+    }
+    #download-the-app .text-section h2 {
+        font-size: 36px;
+    }
+    #newsletter .col-sm-8{
+        padding-right:5px;
+    }
+    #newsletter .col-sm-4{
+        padding-left:5px;
+    }
+    #newsletter form input[type=submit]{
+        padding:5px 10px;
+    }
+    #question .col-sm-offset-2{
+        margin-left:12%;
+    }
+    #question .col-sm-8{
+        width:76%;
+    }
+
+
+    #safety .col-sm-6{
+        width:70%;
+    }
+
+
+    footer .col-xs-6{
+        width:25%;
+    }
+    footer .clearfix:before{
+        display: none;
+        content: none;
+    }
+    footer .clearfix:after{
+        clear: none;
+    }
+
+}
+@media(min-width:768px) and (max-width:1024px) and (orientation: landscape){
+    .banner-sign-up-form {
+        width: 300px;
+        padding: 15px;
+        top: 50%;
+        left: 0;
+        transform: translate(0,-50%);
+        z-index: 9;
+    }
+    #safety .col-sm-6{
+        width:70%;
+    }
+}
+
+/*WHEN SCREEN SMALLER THAN 768PX*/
+@media (max-width:767px) {
+
+    #news .clearfix:before{
+        display: none;
+        content: none;
+    }
+    #news .clearfix:after{
+        clear: none;
+    }
+
+
+
+    .mobile-padding-top-20{
+        padding-top:20px;
+    }
+    .paragraph{
+        padding-bottom:25px;
+    }
+
+
+    ul.nav-ul>li>a:after{
+        content: "";
+        width: 0px;
+        height: 17px;
+        background-color: #ffffff;
+        position: absolute;
+        right: 0;
+        top: 7px;
+    }
+    .navbar-brand img{
+        width:60px;
+    }
+    .slider .item{
+        height:600px;
+    }
+
+
+    /*BANNER FORM*/
+    .banner-sign-up-form {
+        width: 250px;
+        padding: 15px;
+        top: 50%;
+        left:0;
+        transform:translate(0,-50%);
+        margin-left:15px;
+        /*left: -90px;*/
+        z-index: 9;
+    }
+    .banner-sign-up-form a {
+        font-size: 16px;
+    }
+    .or-circle {
+        padding: 10px 0 05px 0;
+    }
+    .or-circle::before{
+        width:100%;
+    }
+    .form-control {
+        height: 35px;
+        padding: 4px 20px;
+        font-size: 12px;
+    }
+    .select-list{
+        height:35px;
+        background: #fff url(../images/icons/select_down_arrow.png) no-repeat right 8px top 14px;
+    }
+    .select-box .col-sm-6:first-child {
+        padding-right: 15px;
+        margin-bottom:6px;
+    }
+    .select-box .col-sm-6:last-child {
+        padding-left: 15px;
+    }
+    .banner-sign-up-form a.sign-up::after{
+        transform:scale(0.8);
+    }
+    .banner-sign-up-form a.ride::after{
+        transform:scale(0.8);
+    }
+    .banner-sign-up-form a.changed:after{
+        content:url("../images/icons/right-arrow.png");
+        position: absolute;
+        right:20px;
+        top:-2px;
+        transform:scale(0.8) rotate(90deg);
+    }
+    .banner-sign-up-form a.changed-two:after{
+        content:url("../images/icons/right-arrow.png");
+        position: absolute;
+        right:0;
+        top:0;
+        transform:scale(0.8) rotate(0deg);
+    }
+
+    /*BANNER FORM*/
+
+
+    body,html{
+        font-size:14px;
+    }
+    p{
+        font-size:14px;
+    }
+    footer p,
+    footer a{
+        font-size:14px;
+    }
+    .padding-top-bottom-100{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .padding-top-bottom-40{
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .padding-top-100{
+        padding-top:50px;
+    }
+    .padding-bottom-100{
+        padding-bottom: 50px;
+    }
+    .padding-bottom-30{
+        padding-bottom:20px;
+    }
+    .padding-top-30{
+        padding-top:20px;
+    }
+    .padding-top-40{
+        padding-top:25px;
+    }
+    .padding-bottom-40{
+        padding-bottom:25px;
+    }
+
+    .margin-bottom-40{
+        margin-bottom:25px;
+    }
+
+    .section-title{
+        margin:0 0 15px 0;
+    }
+    h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size:24px;
+        line-height: 30px;
+    }
+    .form-control{
+        padding:5px 20px;
+    }
+    .go-to-top{
+    }
+
+    /*CHOOSE CAR TAB*/
+    .choose-car-tab{
+        width:435px;
+    }
+    .choose-car-tab > li {
+        margin-right: 5px;
+    }
+    .choose-car-tab > li > a {
+        padding: 8px 25px;
+    }
+    .choose-car-tab-content .tab-pane {
+        margin-top: -20%;
+        height: 600px;
+    }
+    .tab-content-footer {
+        bottom: 54px;
+    }
+    .tab-content-footer .display-flex > a {
+        margin-right: 15px;
+        padding: 8px 0 11px 0;
+        font-size:12px;
+    }
+    .tab-content-footer .display-flex > a > span{
+        font-size:16px;
+        top:2px;
+    }
+    /*CHOOSE CAR TAB*/
+    /*BENEFITS*/
+    #benefits .col-sm-3 .display-table:last-child {
+        margin-top: 0;
+    }
+    #benefits .right-benefits, #benefits .left-benefits {
+        margin-top: 0px;
+    }
+    #benefits .right-benefits{
+        padding-left:15px;
+    }
+    #benefits .section-sub-title {
+        font-size: 18px;
+        margin-bottom:10px;
+    }
+    #benefits .left-benefits .display-table::after,
+    #benefits .right-benefits .display-table::before{
+        content: none;
+    }
+    #benefits .benefit-image{
+        width:70%;
+        margin:0 auto;
+        position: relative;
+        top:20px;
+        margin-bottom:25px;
+    }
+    /*BENEFITS*/
+
+    /*DOWNLOAD THE APP*/
+    #download-the-app .padding-top-100{
+        padding-top:0;
+    }
+    #download-the-app .text-section h2 {
+        margin: 0 0 5% 0;
+        font-size:26px;
+    }
+    #download-the-app .text-section {
+        margin-right: 0;
+    }
+    #download-the-app form {
+        margin-top: 10%;
+        margin-bottom:20px;
+    }
+    #download-the-app .input-group {
+        height: 40px;
+    }
+    #download-the-app .input-group-addon > input[type="submit"]{
+        font-size:11px;
+        padding:10px 15px;
+
+    }
+    #download-the-app .app-icon-holder img{
+        width:140px;
+    }
+    .app-icon-holder > a:first-child {
+        margin-right: 5px;
+    }
+    #download-the-app .col-sm-5 > img {
+        max-width: 100%;
+        margin: 0 auto 0 auto;
+    }
+    /*DOWNLOAD THE APP*/
+
+    /*NEWS*/
+    .news-slider .owl-nav {
+        top: -50px;
+    }
+    .news-slider .owl-prev {
+        right: 34px;
+    }
+    .news-slider .owl-next, .news-slider .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+    .news-slider .owl-next>img, .news-slider .owl-prev>img,
+    .fare-slider .owl-next>img, .fare-slider .owl-prev>img{
+        margin-top:-3px;
+    }
+    .news-slider .image-holder {
+        margin-bottom: 20px;
+    }
+    .news-slider p.little-news {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    /*NEWS*/
+
+    /*NEWSLETTER*/
+    #newsletter .section-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #newsletter .col-sm-offset-1{
+        margin-left:0;
+    }
+    #newsletter .form-control {
+        height: 40px;
+    }
+    #newsletter .col-xs-8{
+        padding-right:5px;
+    }
+    #newsletter .col-xs-4{
+        float: left;
+        width:33.333333%;
+        padding-left:5px;
+    }
+    #newsletter form input[type=submit]{
+        padding:5px 10px!important;
+    }
+    /*NEWSLETTER*/
+
+    /*QUESTION*/
+
+    /*QUESTION*/
+
+
+
+    /*RIDE*/
+    .breadcrumb-banner{
+        height:150px;
+    }
+    .page-title{
+        font-size:28px;
+    }
+    .page-title p{
+        font-size:12px;
+        width:30px;
+        height:30px;
+        line-height: 30px;
+        top:5px;
+    }
+    .button-div{
+        margin-top:15px;
+    }
+    .sign-up-button{
+        font-size:12px;
+        padding:10px 40px;
+        line-height: 40px;
+    }
+
+    /*OVERVIEW*/
+    #overview{}
+    #overview .image-holder{
+        margin-bottom:20px;
+    }
+    .overview .section-sub-title{
+        font-size:20px;
+        margin-bottom:15px;
+    }
+    .after-overview .section-sub-title{
+        font-size:24px;
+        line-height: 25px;
+    }
+    .fare-slider .owl-nav{
+        top:-47px;
+    }
+    .fare-slider .owl-prev {
+        right: 34px;
+    }
+    .fare-slider .owl-next, .fare-slider .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+    /*OVERVIEW*/
+
+    /*FARE*/
+    .fare-slider .table-responsive {
+        width: 100%;
+        margin-bottom: 0;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+        border-bottom: 0;
+    }
+    #service-area .table-responsive{
+        border:0;
+    }
+    #service-area h3{
+        color:#ffffff;
+        background-color:#333333;
+        padding:10px 15px;
+        border:1px solid #eaeaea;
+        border-radius:15px 15px 0 0;
+    }
+    /*#service-area table thead h3{*/
+    /*color:#ffffff;*/
+    /*}*/
+    #service-area tbody{
+        color:#333333;
+        font-size:14px;
+    }
+    #service-area tbody tr>td{
+        padding-top:10px;
+        padding-bottom:8px;
+    }
+    #service-area tbody tr>td:first-child{
+        padding-left:15px;
+    }
+    #service-area tbody tr:first-child>td{
+        padding-top:15px;
+        padding-bottom:8px;
+    }
+    #service-area tbody tr:last-child>td{
+        padding-bottom:15px;
+    }
+
+    /*FARE*/
+
+    /*RIDE*/
+
+    /*REGISTRATION*/
+    .registration-form{
+        width:350px;
+    }
+    #registration .registration-form{
+        float: none!important;
+        margin:0 auto;
+    }
+    #registration .form-area .registration-form:last-child{
+        margin-top:25px;
+    }
+    /*REGISTRATION*/
+
+    /*FAQ*/
+    .faq-tabs li>a{
+        padding:12px 10px;
+        font-size:16px;
+    }
+    .faq-tabs h4{
+        font-size:20px;
+        margin-bottom:15px;
+    }
+    .faq-tabs .paragraph{
+        margin-bottom:25px;
+    }
+    .faq-tabs .paragraph p{
+        margin-bottom:20px;
+    }
+    .pagination-div{
+        padding-top:0px;
+    }
+    /*FAQ*/
+
+    #driver-app .image-holder img{
+        margin:0 auto;
+    }
+    #driver-app .section-title{
+        text-align:center;
+    }
+
+
+    /*NEWS*/
+    #news .col-xs-6{
+        margin-bottom:25px;
+    }
+    /*NEWS*/
+
+    /*FOOTER*/
+    .footer-logo{
+        width:100px;
+    }
+    .top-footer h3{
+        margin-bottom:20px;
+    }
+
+    footer .about, footer .quick-links {
+        padding-right: 0;
+    }
+    .about,.quick-links,.our-app,.contact-us{
+        margin-bottom:30px;
+        padding-right:0;
+    }
+    .contact-us{
+        margin-bottom:0;
+    }
+    .quick-links ul > li {
+        margin-bottom: 15px;
+    }
+    .contact-us > div {
+        margin-bottom: 15px;
+    }
+    .bottom-footer{
+        text-align: center!important;
+    }
+    .bottom-footer .text-right{
+        text-align: center!important;
+    }
+    /*FOOTER*/
+}
+/*WHEN SCREEN SMALLER THAN 768PX*/
+
+@media (max-width:660px) {
+    #signup-process .col-xs-4{
+        float:none;
+        width:100%;
+    }
+}
+
+
+@media (max-width:559px){
+
+    .banner-sign-up-form {
+        width: 250px;
+        padding: 15px;
+        margin-left:15px;
+        top:50%;
+        left:0;
+        transform:translate(0,-50%);
+        z-index: 9;
+    }
+    .banner-sign-up-form a {
+        font-size: 16px;
+    }
+    .or-circle {
+        padding: 10px 0 05px 0;
+    }
+    .or-circle::before{
+        width:100%;
+    }
+    .form-control {
+        height: 35px;
+        padding: 4px 20px;
+        font-size: 12px;
+    }
+    .slider .item{
+
+    }
+    #benefits .col-xs-6{
+        width:100%;
+    }
+    #benefits .col-sm-3 .display-table:last-child {
+        margin-top: 20px;
+    }
+    #download-the-app .col-xs-7,
+    #download-the-app .col-xs-5{
+        width:100%;
+    }
+    #download-the-app .col-sm-5>img{
+    max-width: 70%;
+    margin: 15px auto 0 auto;
+    }
+    #question .col-xs-4{
+        width:100%;
+    }
+    #question .column{
+        margin-bottom:20px;
+    }
+    #question .column:last-child{
+        margin-bottom:0;
+    }
+    #question .column:after{
+        content:none;
+    }
+
+    #overview .col-xs-4{
+        float:none;
+        width:100%;
+        text-align: center;
+        margin-bottom:30px;
+    }
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img, #overview .img-responsive, .thumbnail a > img, .thumbnail > img{
+        width:80%;
+        margin:0 auto;
+    }
+    .overview{
+        padding-bottom:20px;
+        margin-bottom:20px;
+    }
+
+
+
+    /*DRIVE*/
+    h3{
+        margin-bottom:10px!important;
+    }
+    .col-xs-4{
+        float: none;
+        width:100%;
+    }
+    .drive .col-xs-6{
+        float:none!important;
+        width:100%!important;
+    }
+    .drive{
+        margin-top:20px;
+    }
+    .drive{
+        margin-bottom:0;
+    }
+    .drive .col-xs-6{
+        text-align: center;
+    }
+    .drive .col-sm-6:first-child{
+        margin-top:30px;
+    }
+    .drive .col-sm-6:first-child{
+        margin-top:0;
+    }
+    .drive .col-sm-6:nth-child(2){
+        margin-top:30px;
+    }
+    #signup-process .icon-holder{
+        margin-top:25px;
+        margin-bottom:20px;
+    }
+    #requirements .col-sm-6 > div:last-child{
+        margin-bottom:25px!important;
+    }
+
+    #safety .section-title{
+        margin-top:0px;
+        margin-bottom:15px;
+    }
+
+
+    /*DRIVE*/
+}
+@media (max-width:420px){
+    footer .about .image-holder{
+        margin-bottom:0;
+    }
+    .contact-us .email a{
+        font-size:12px;
+    }
+}
+/*WHEN SCREEN SMALLER THAN 480px*/
+@media (max-width:480px) {
+    h3{
+        font-size:18px;
+        line-height: 25px;
+    }
+
+
+    .slider .item{
+        height:600px;
+    }
+
+
+    /*CHOOSE A CAR*/
+    .choose-car-tab-content .tab-pane{
+        margin-top:-24%;
+        height:400px;
+
+    }
+    .choose-car-tab{
+        width:320px;
+    }
+    .choose-car-tab > li > a{
+        font-size:10px;
+        padding:8px 15px;
+    }
+    .tab-content-footer{
+        bottom:30px;
+    }
+    .tab-content-footer .display-flex > a{
+        margin-right:15px;
+        font-size:15px;
+        padding:6px 0 6px 0;
+        border-radius:5px;
+    }
+    .tab-content-footer .display-flex > a > span{
+        display: block;
+        top:0;
+        font-size:16px;
+    }
+    /*CHOOSE A CAR*/
+
+    /*BENEFITS*/
+    #benefits .padding-top-20{
+        padding-top:10px;
+    }
+    #benefits .col-sm-6 img{
+        margin:8% auto;
+    }
+    /*BENEFITS*/
+
+    /*NEWSLETTER*/
+    #newsletter .col-xs-8{
+        width:100%;
+        padding-right:15px;
+    }
+    #newsletter .col-xs-4{
+        width:100%;
+        padding-left:15px;
+    }
+    /*NEWSLETTER*/
+
+    #news .col-xs-6{
+        float:none;
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    .footer-logo{
+        width:100px;
+    }
+}
+/*WHEN SCREEN SMALLER THAN 480px*/
+
+@media (max-width:380px) {
+    .slider .item{
+        height: 600px;
+    }
+    h3{
+        font-size:20px;
+        line-height: 25px;
+    }
+
+
+    .display-flex > a {
+        margin-right: 5px!important;
+        font-size: 10px!important;
+    }
+    .tab-content-footer .display-flex > a > span {
+        font-size: 13px!important;
+    }
+
+
+    .contact-us .social-icon a {
+        margin-right: 10px;
+    }
+    .registration-form{
+        width:320px;
+    }
+
+}
+@media (max-width:360px) {
+    .slider .item{
+        height: 400px;
+    }
+
+    .banner-sign-up-form{
+        display: none;
+    }
+    .news-slider .owl-nav {
+
+        top: -43px;
+
+    }
+    .news-slider .owl-next, .news-slider .owl-prev {
+
+        width: 20px;
+        height: 20px;
+
+    }
+    .news-slider .owl-prev {
+
+        right: 25px;
+
+    }
+    .news-slider .owl-next, .news-slider .owl-prev {
+
+        font-size: 0;
+    }
+    .news-slider .owl-next > img, .news-slider .owl-prev > img {
+        margin-top: 2px;
+    }
+    .registration-form{
+        width:280px;
+    }
+
+    footer .col-xs-6{
+        float:none!important;
+        width:100%;
+    }
+
+}
